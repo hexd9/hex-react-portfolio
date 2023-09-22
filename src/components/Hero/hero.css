@@ -1,0 +1,11 @@
+.imageContainer {
+    max-width: 50rem;
+    min-width: 20rem;
+
+}
+
+.imageContainer img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px rgba(5, 151, 236, 0.8);
+}
