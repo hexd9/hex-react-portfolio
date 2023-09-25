@@ -9,3 +9,9 @@
     border-radius: 5px;
     box-shadow: 4px 4px 8px rgba(5, 151, 236, 0.8);
 }
+
+.herowrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

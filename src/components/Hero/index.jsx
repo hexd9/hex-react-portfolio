@@ -1,9 +1,9 @@
 import "./hero.css"
-import heroimage from "../../images/heroimage.jpg"
+import heroimage from "../../images/subject.png"
 export const Hero=() => {
 
     return (
-      <div>
+      <div className="herowrapper">
         <h1>Hello</h1>
         <div className="imageContainer">
             <img src={heroimage}/>
