@@ -1,27 +1,53 @@
 import projectone from "../../images/bitmoji.png"
+import projecttwo from "../../images/regexpress.webp"
+import projectthree from "../../images/SVGlogo.png"
+import projectfour from "../../images/notetaker.png"
+import projectfive from "../../images/refractor.png"
+import projectsix from "../../images/Password_Generator.png"
 const projectsData = [
   {
     id: 1,
     title: 'Coding Canvas',
-    description: 'Description for Project 1',
+    description: 'Portfolio',
     imageUrl: projectone,
-    githubLink: 'https://github.com/username/project1'
+    githubLink: 'https://github.com/hexd9/coding-canvas'
   },
   {
     id: 2,
-    title: 'Project 2',
-    description: 'Description for Project 2',
-    imageUrl: 'path/to/image2.jpg',
-    githubLink: 'https://github.com/username/project2'
+    title: 'Hex-Regexpress',
+    description: 'Regex Tutorial',
+    imageUrl: projecttwo,
+    githubLink: 'https://github.com/hexd9/hex-regexpress'
   },
   {
     id: 3,
-    title: 'Project 3',
-    description: 'Description for Project 3',
-    imageUrl: 'path/to/image3.jpg',
-    githubLink: 'https://github.com/username/project3'
+    title: 'Hex-Logo-Designer',
+    description: 'SVG Logo Maker',
+    imageUrl: projectthree,
+    githubLink: 'https://github.com/hexd9/hex-logo-designer'
   },
-  // Add more projects as needed
+  {
+    id: 4,
+    title: 'Business Notes',
+    description: 'Note Taking Application',
+    imageUrl: projectfour,
+    githubLink: 'https://github.com/hexd9/Business-Notes'
+  },
+  {
+    id: 5,
+    title: 'Refractor',
+    description: 'Code Refactor',
+    imageUrl: projectfive,
+    githubLink: 'https://github.com/hexd9/Module-Challenge-1'
+  },
+  {
+    id: 6,
+    title: 'Password Generator',
+    description: 'Javascript Random Password Generator',
+    imageUrl: projectsix,
+    githubLink: 'https://github.com/hexd9/password-generator'
+  },
+
 ];
 
 export const Projects=() => {

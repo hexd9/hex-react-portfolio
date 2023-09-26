@@ -1,7 +1,7 @@
 export const Footer=() => { 
-  const githubLink = 'https://github.com/your-username'; // Replace with your GitHub profile link
-  const linkedinLink = 'https://www.linkedin.com/in/your-profile'; // Replace with your LinkedIn profile link
-  const emailLink = 'mailto:your.email@example.com'; // Replace with your email
+  const githubLink = 'https://github.com/hexd9'; 
+  const linkedinLink = 'https://www.linkedin.com/in/hector-d-b23689167/'; 
+  const emailLink = 'mailto:hectorjr_805@yahoo.com'; 
   return (
     <footer style={footerStyle}>
       <div>

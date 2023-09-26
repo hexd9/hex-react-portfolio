@@ -21,17 +21,14 @@ export const Contact =() => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    // Basic form validation
     if (!name || !email || !message) {
       setFormError('All fields are required.');
       return;
     }
 
-    // Your form submission logic goes here
-    // For simplicity, we'll just log the form data
+   
     console.log('Form submitted:', { name, email, message });
 
-    // Clear form and error state after submission
     setName('');
     setEmail('');
     setMessage('');
