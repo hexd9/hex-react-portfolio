@@ -1,6 +1,6 @@
 export const Resume=() => {
   const handleDownload = () => {
-    const resumeUrl =  'https://docs.google.com/document/d/1MyUAO04VwNDOQ8RnXyg8_ivjciR_9MYq0lHMFbyzuuM/edit';
+    const resumeUrl =  'https://drive.google.com/file/d/1yY7roH8Ob_NXjPzmPSnlBbnxM197mxuP/view?usp=sharing';
     const link = document.createElement('a');
     link.href = resumeUrl;
     link.download = 'resume.pdf';

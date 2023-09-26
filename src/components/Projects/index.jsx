@@ -2,7 +2,7 @@ import projectone from "../../images/bitmoji.png"
 const projectsData = [
   {
     id: 1,
-    title: 'Project 1',
+    title: 'Coding Canvas',
     description: 'Description for Project 1',
     imageUrl: projectone,
     githubLink: 'https://github.com/username/project1'

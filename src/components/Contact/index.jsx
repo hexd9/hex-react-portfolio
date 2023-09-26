@@ -40,7 +40,7 @@ export const Contact =() => {
     return (
       <div className="wrapper">
          <section id="Contact" className="background">
-        <h3 className="Section-Header">Contact</h3>
+        <h3 className="Section-Header">Contact Me</h3>
         <div>
             <ul className="info">
                 <li>Phone Number: 805.123.4578</li>
@@ -51,7 +51,7 @@ export const Contact =() => {
       </section>
 
       <section className="contactform">
-      <h2>Contact Me</h2>
+      <h2>Contact Information</h2>
       <form className="contactelements" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
