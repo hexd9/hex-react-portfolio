@@ -22,6 +22,8 @@ This is my personal portfolio website, built using React. It serves as a showcas
 
 https://github.com/hexd9/hex-react-portfolio
 
+https://hexd9.github.io/hex-react-portfolio/
+
 
 
 npm run dev
