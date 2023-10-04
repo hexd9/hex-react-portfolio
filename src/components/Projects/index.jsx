@@ -53,7 +53,7 @@ const projectsData = [
     title: 'Project 3',
     description: 'Interactive MERN Stack Single-Page Application',
     imageUrl: projectseven,
-    githubLink: 'https://github.com/hexd9/password-generator'
+    githubLink: 'https://github.com/hexd9/hex-react-portfolio'
   },
 
 ];
