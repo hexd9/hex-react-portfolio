@@ -4,6 +4,7 @@ import projectthree from "../../images/SVGlogo.png"
 import projectfour from "../../images/notetaker.png"
 import projectfive from "../../images/refractor.png"
 import projectsix from "../../images/Password_Generator.png"
+import projectseven from "../../images/fitness+.png"
 const projectsData = [
   {
     id: 1,
@@ -45,6 +46,13 @@ const projectsData = [
     title: 'Password Generator',
     description: 'Javascript Random Password Generator',
     imageUrl: projectsix,
+    githubLink: 'https://github.com/hexd9/password-generator'
+  },
+  {
+    id: 7,
+    title: 'Project 3',
+    description: 'Interactive MERN Stack Single-Page Application',
+    imageUrl: projectseven,
     githubLink: 'https://github.com/hexd9/password-generator'
   },
 
